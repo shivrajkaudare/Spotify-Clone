@@ -1,0 +1,81 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    
+}
+.main{
+    height: 100vh;
+    padding: 0.5rem;
+    display: flex;
+}
+/*------------------------side bar css--------------------*/
+.sidebar{
+    width:17.5rem ;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav i {
+    color: white;
+}
+.nav{
+   height: 9.75rem;
+   width: 17.5rem;
+   border-radius: 8px;
+   background-color: #121212 ;
+   border-radius: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: ;
+}
+.nav-option{
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    width: 16rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nav-option .home{
+    width: 14.5rem;
+    height: 2.5em; 
+    display: flex;
+    align-items: center;
+}
+.home{
+    margin-left: 0.78rem;
+}
+/* .search{
+    margin-left: 0.78rem;
+
+} */
+.nav-option .search{
+    width: 14.5rem;
+    height: 2.5em; 
+  display: flex;
+  align-items: center;
+}
+.nav-icons i{
+    width: 1.306rem;
+    height: 1.25rem;
+}
+.nav-text{
+  padding-left: 1rem;
+}
+.nav-option a{
+    font-weight: 700;
+}
+.nav-logo {
+    padding: 1rem 0.5rem 0rem 1.5rem;
+    cursor: pointer;
+}
+.nav-logo a{
+    font-weight: 500;
+}
+
