@@ -94,6 +94,18 @@ a{
     margin-top: 0.5rem;
 }
 
+.lib-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.lib-option img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 
 
 
